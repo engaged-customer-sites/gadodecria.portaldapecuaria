@@ -331,7 +331,7 @@
 }
 
 .brix---paragraph-default-5 {
-  color: #fff3e5;
+  color: var(--ow);
   margin-bottom: 0;
   font-family: Open Sans, sans-serif;
   font-size: 18px;
@@ -916,7 +916,7 @@
 }
 
 .brix---heading-h2-size-4 {
-  color: #fff3e5;
+  color: var(--ow);
   margin-top: 0;
   margin-bottom: 0;
   font-family: Open Sans, sans-serif;
@@ -943,7 +943,7 @@
 .brix---mg-bottom-80px {
   justify-content: center;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 0;
   display: block;
 }
 
@@ -1328,7 +1328,7 @@
   background-size: auto;
   border: 0 solid #eff0f6;
   border-radius: 24px;
-  padding: 52px 32px;
+  padding: 13px 20px;
   transition: transform .3s;
   display: flex;
   box-shadow: 0 2px 12px rgba(20, 20, 43, .08);
@@ -1499,7 +1499,7 @@
   transform-style: preserve-3d;
   border: 0 solid #eff0f6;
   border-radius: 24px;
-  padding: 52px 32px;
+  padding: 7px 15px;
   transition: transform .3s;
   display: flex;
   box-shadow: 0 2px 12px rgba(20, 20, 43, .08);
@@ -1533,7 +1533,7 @@
   padding: 0;
   font-family: Open Sans, sans-serif;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 27px;
 }
 
@@ -1558,7 +1558,7 @@
   color: var(--ow);
   letter-spacing: normal;
   font-family: Montserrat, sans-serif;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: 600;
   line-height: 1.5;
 }
@@ -1777,12 +1777,13 @@
 
 .banner {
   background-color: var(--verde-of);
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 
 .html-embed {
   min-width: 640px;
+  margin-bottom: 0;
 }
 
 .utility-page-wrap {
@@ -1800,6 +1801,152 @@
   text-align: center;
   flex-direction: column;
   display: flex;
+}
+
+.div-block-63 {
+  min-width: 640px;
+  justify-content: center;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  display: flex;
+}
+
+.bold-text-58 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.div-block-7 {
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.html-embed-2 {
+  width: 700px;
+}
+
+.preview-include-tittle-3 {
+  color: #fff9f0;
+  text-align: center;
+  letter-spacing: -.96px;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Open Sans, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.bold-text-59 {
+  color: #f4d4a8;
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  font-weight: 800;
+}
+
+.div-block-64 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container-5 {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  display: block;
+}
+
+.primary-button-6 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #6daa33;
+  border-radius: 20px;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding: 28px 100px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  display: inline-block;
+}
+
+.primary-button-6:hover {
+  background-color: #5d5244;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.accordion-icon_component-3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid var(--ow);
+  color: #98a2b3;
+  border-radius: 50%;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.bold-text-18 {
+  color: var(--ow);
+  font-weight: 700;
+}
+
+.uui-faq01_accordion-2 {
+  border-bottom: 1px solid #eaecf0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.uui-faq01_accordion-2.last-item {
+  border-bottom-color: rgba(0, 0, 0, 0);
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: block;
+}
+
+.uui-text-size-medium-3 {
+  color: var(--ow);
+  letter-spacing: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.uui-faq01_heading-2 {
+  color: var(--ow);
+  letter-spacing: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.accordion-icon_horizontal-line-2 {
+  width: .75rem;
+  height: 2px;
+  background-color: var(--ow);
+  border-radius: 1px;
+  position: absolute;
+}
+
+.accordion-icon_vertical-line-3 {
+  width: 2px;
+  height: .75rem;
+  background-color: var(--ow);
+  border-radius: 1px;
+  position: absolute;
 }
 
 @media screen and (min-width: 1440px) {
@@ -2147,6 +2294,24 @@
   .brix---display-4 {
     font-size: 32px;
     line-height: 44px;
+  }
+
+  .preview-include-tittle-3 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .primary-button-6 {
+    margin-top: 0;
+    margin-bottom: 38px;
+    margin-left: 11px;
+    padding: 16px 30px;
+    font-size: 16px;
+  }
+
+  .primary-button-6:hover {
+    margin-top: 0;
+    margin-bottom: 36px;
   }
 }
 
@@ -2555,11 +2720,32 @@
   .uui-space-small-2 {
     min-height: 1.25rem;
   }
+
+  .preview-include-tittle-3 {
+    font-size: 32px;
+  }
+
+  .div-block-8 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .primary-button-6 {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 479px) {
   .brix---grid-3-columns---1-col-mb {
     grid-template-columns: 1fr;
+  }
+
+  .bold-text-46 {
+    font-size: 25px;
+    line-height: 29px;
   }
 
   .uui-padding-vertical-xhuge-2 {
@@ -2607,6 +2793,10 @@
     display: none;
   }
 
+  .brix---card-stats-v3 {
+    padding: 20px 7px;
+  }
+
   .brix---heading-h3-size-3 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -2643,8 +2833,12 @@
   }
 
   .brix---accordion-title {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 26px;
+  }
+
+  .brix---mg-bottom-0 {
+    line-height: 25px;
   }
 
   .brix---headinsssg-h3-size-3-copy {
@@ -2762,8 +2956,8 @@
     align-items: center;
     margin-left: 0;
     margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: .6rem;
+    padding-right: .6rem;
   }
 
   .uui-button.is-button-large-copy:hover {
@@ -2892,13 +3086,19 @@
     margin-bottom: 0;
   }
 
+  .uui-faq01_component {
+    margin-top: 0;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+
   .brix---card-testimonial-v3 {
     flex-direction: column;
   }
 
   .brix---heading-h2-size-3 {
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 25px;
+    line-height: 27px;
   }
 
   .brix---text-300-bold {
@@ -2945,6 +3145,10 @@
   .brix---card-content-testimonial-v3 {
     padding-left: 22px;
     padding-right: 22px;
+  }
+
+  .brix---accosrdion-item-wrapper-v4-copy {
+    padding: 13px 14px;
   }
 
   .brix---mg-bottom-16px {
@@ -2997,6 +3201,10 @@
   .bold-te0xt-20-copy {
     font-size: 20px;
     line-height: 20px;
+  }
+
+  .brix---acsssscosrdion-item-wrapper-v4-copy-copy {
+    padding: 11px 7px;
   }
 
   .preview-include-details-copy-3 {
@@ -3106,10 +3314,45 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-}
 
-#w-node-dfa72fdc-5865-e66c-2955-ea9b12192e95-9f6c36c4 {
-  grid-area: span 1 / span 3 / span 1 / span 3;
+  .html-embed {
+    min-width: 320px;
+  }
+
+  .div-block-63 {
+    min-width: 300px;
+  }
+
+  .preview-include-tittle-3 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .div-block-8 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .bold-text-59 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .primary-button-6 {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 15px 0;
+    font-size: 14px;
+    display: flex;
+  }
+
+  .bold-text-18 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-block;
+  }
 }
 
 #w-node-_0cd9868d-0861-314d-f7cc-234aa5bcd34c-9f6c36c4, #w-node-_0cd9868d-0861-314d-f7cc-234aa5bcd355-9f6c36c4, #w-node-_0cd9868d-0861-314d-f7cc-234aa5bcd35e-9f6c36c4, #w-node-ca173dab-0b1e-f06e-b57a-5a53c5d508cc-9f6c36c4, #w-node-_0cd9868d-0861-314d-f7cc-234aa5bcd370-9f6c36c4, #w-node-_0cd9868d-0861-314d-f7cc-234aa5bcd37b-9f6c36c4, #w-node-_0cd9868d-0861-314d-f7cc-234aa5bcd384-9f6c36c4, #w-node-_0cd9868d-0861-314d-f7cc-234aa5bcd38d-9f6c36c4 {
@@ -3144,7 +3387,7 @@
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-dfa72fdc-5865-e66c-2955-ea9b12192e73-9f6c36c4, #w-node-_0cd9868d-0861-314d-f7cc-234aa5bcd2cc-9f6c36c4 {
+  #w-node-_0cd9868d-0861-314d-f7cc-234aa5bcd2cc-9f6c36c4 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
